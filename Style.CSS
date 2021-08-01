@@ -1,0 +1,199 @@
+*{
+margin: 0;
+box-sizing:border-box;
+}
+
+header{
+background:blue;
+color: #000;
+height: 75px;
+width:100vw;
+position:fixed;
+top: 0;
+display:flex;
+justify-content:flex-end;
+
+
+
+}
+
+
+
+
+
+.menu{
+color:white;
+
+}
+
+#navbar{
+width: 50VW;
+display:flex;
+justify-content:space-around;
+align-items:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a{
+color:inherit;
+font-size:18px;
+text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#landing-page{
+height:100vh;
+margin-top:75px;
+display:flex;
+align-items:center;
+justify-content:space-around;
+background: lightblue;
+}
+
+
+
+
+
+
+h1{
+font-size: 42px; 
+text-align: center;  
+}
+#landing-page img  {
+border: 9px solid blue;
+border-radius:50%;
+margin-right: 100px;
+}
+
+h2{
+text-align: center;
+font-size:48px;
+margin:30px;
+}
+
+#projets{
+display: flex;
+justify-content:space-around;
+flex-wrap: wrap;
+min-height: 150vh;
+
+
+
+}
+
+
+
+
+
+
+
+
+#projets a{
+outline: 1px solid;   
+text-align: center; 
+width:30vw ;
+}
+
+a img{
+width: 150px;
+height: 150px;
+}
+
+footer{
+background-color: blue;
+padding: 40px;
+display: flex;
+justify-content: space-around;
+}
+    
+@media only screen 
+and(min-width:375px)   
+and(max-width:736px)
+and(orientation:portrait){}
+
+#navbar{
+width: 80vw;
+} 
+
+
+
+#landing-page{
+height: 80vh;
+flex-direction: column;
+justify-content: center;
+}
+
+h1{
+margin-bottom: 50px;
+font-size:30px;
+width: 100%;
+}
+
+#Landing-page img{
+margin: right 0;;
+}
+
+
+h2{
+font-size: 24px;
+margin-bottom: 0px;
+}
+
+#projets{
+flex-direction: column;
+align-items: center;
+min-height: 150vh;
+}
+
+#projets a{
+width: 100%;
+font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
